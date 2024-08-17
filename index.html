@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <main>
+        <div class="filter-container">
+            <select id="categoryFilter" onchange="filterCategories()">
+                <option value="all">Todos</option>
+                <option value="musicas">Músicas</option>
+                <option value="filmes">Filmes</option>
+                <option value="ferias">Férias</option>
+            </select>
+        </div>
+
+        <div class="content-container">
+            <div class="category-item musicas"><p>Músicas</p></div>
+            <div class="category-item filmes"><p>Filmes</p></div>
+            <div class="category-item ferias"><p>Férias</p></div>
+            <div class="category-item musicas"><p>Músicas</p></div>
+            <div class="category-item filmes"><p>Filmes</p></div>
+        </div>
+    </main>
+
+    <script src="/index.js"></script>
+</body>
+</html>
